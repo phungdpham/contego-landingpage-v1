@@ -12,7 +12,7 @@ function Layout({ children }) {
         pageId="1445135705721986"
         language="en_US"
         themeColor={'#4267B2'}
-        bottomSpacing={50}
+        bottomSpacing={10}
         loggedInGreeting="loggedInGreeting"
         loggedOutGreeting="loggedOutGreeting"
         greetingDialogDisplay={'icon'}
