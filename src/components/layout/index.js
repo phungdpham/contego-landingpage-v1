@@ -1,13 +1,13 @@
-import Footer from '../footer';
 import Header from '../header';
 import { MessengerChat } from 'react-messenger-chat-plugin';
+import CallButton from '../callButton';
 
 function Layout({ children }) {
   return (
     <div className="main">
       <Header />
       <div className="md:hidden">{children}</div>
-      <Footer />
+      <CallButton />
       <MessengerChat
         pageId="1445135705721986"
         language="en_US"

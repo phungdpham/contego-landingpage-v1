@@ -61,7 +61,7 @@ export default function Home() {
               {/* công nghệ air bubble massage nước lên lòng bàn chân, dùng một lần, không phải chùi rửa */}
             </h1>
           </div>
-          <div className="relative h-[390px]">
+          <div className="relative h-[414px]">
             <iframe
               src="https://player.vimeo.com/video/662098416"
               autoPlay
@@ -82,10 +82,10 @@ export default function Home() {
               HỆ THỐNG OVERFLOW
             </h1>
             <h1 className="text-xl font-semibold italic">
-              Giúp thợ thoải mái châm thêm nước mới mà không lo tràn ra ngoài
+              Thoải mái châm thêm nước mới mà không lo tràn ra ngoài
             </h1>
           </div>
-          <div className="relative h-[390px]">
+          <div className="relative h-[414px]">
             <iframe
               src="https://player.vimeo.com/video/743307158"
               autoPlay
@@ -110,7 +110,7 @@ export default function Home() {
               pedicure
             </h1>
           </div>
-          <div className="relative h-[390px]">
+          <div className="relative h-[414px]">
             <iframe
               src="https://player.vimeo.com/video/743306861"
               autoPlay
@@ -131,7 +131,7 @@ export default function Home() {
               Và những tính năng hữu ích khác
             </h1>
           </div>
-          <div className="relative h-[390px]">
+          <div className="relative h-[414px]">
             <iframe
               src="https://player.vimeo.com/video/662098381"
               autoPlay
