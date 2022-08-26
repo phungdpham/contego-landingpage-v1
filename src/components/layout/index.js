@@ -6,7 +6,7 @@ function Layout({ children }) {
   return (
     <div className="main">
       <Header />
-      <div className="">{children}</div>
+      <div className="md:hidden">{children}</div>
       <Footer />
       <MessengerChat
         pageId="1445135705721986"
@@ -15,7 +15,7 @@ function Layout({ children }) {
         bottomSpacing={10}
         loggedInGreeting="loggedInGreeting"
         loggedOutGreeting="loggedOutGreeting"
-        greetingDialogDisplay={'icon'}
+        greetingDialogDisplay={'show'}
         debugMode={true}
         onMessengerShow={() => {
           console.log('onMessengerShow');
