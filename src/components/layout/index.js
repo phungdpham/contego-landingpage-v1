@@ -13,8 +13,8 @@ function Layout({ children }) {
         language="en_US"
         themeColor={'#4267B2'}
         bottomSpacing={10}
-        loggedInGreeting="loggedInGreeting"
-        loggedOutGreeting="loggedOutGreeting"
+        loggedInGreeting="Chat with Contégo Spa Designs"
+        loggedOutGreeting="Chat with Contégo Spa Designs"
         greetingDialogDisplay={'show'}
         debugMode={true}
         onMessengerShow={() => {

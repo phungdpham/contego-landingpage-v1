@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Layout from '../src/components/layout';
+import Pixel from '../src/components/pixel';
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
           <div className="relative h-[220px]">
             <iframe
               src="https://player.vimeo.com/video/494597824"
-              autoplay="1"
+              autoPlay
               allowFullScreen
               style={{
                 position: 'absolute',
@@ -50,8 +51,10 @@ export default function Home() {
               DISPOSIBLE JET-LINER
             </h1>
             <h1 className="text-xl font-semibold italic">
-              <span className="">Công nghệ Bubble Massage nước</span> thay thế Jet nam châm, dùng một lần và vứt bỏ hoàn toàn. Đảm bảo vệ sinh tuyệt đối
-             {/* Công nghệ bubble masasage nước lên lòng bàn chân khách, được
+              <span className="">Công nghệ Bubble Massage nước</span> thay thế
+              Jet nam châm, dùng một lần và vứt bỏ hoàn toàn. Đảm bảo vệ sinh
+              tuyệt đối
+              {/* Công nghệ bubble masasage nước lên lòng bàn chân khách, được
               sử dụng một lần, tiết kiệm thời gian & công sức chùi rửa
 
               <br /> */}
@@ -61,7 +64,7 @@ export default function Home() {
           <div className="relative h-[390px]">
             <iframe
               src="https://player.vimeo.com/video/662098416"
-              autoplay="1"
+              autoPlay
               allowFullScreen
               style={{
                 position: 'absolute',
@@ -85,7 +88,7 @@ export default function Home() {
           <div className="relative h-[390px]">
             <iframe
               src="https://player.vimeo.com/video/743307158"
-              autoplay="1"
+              autoPlay
               allowFullScreen
               style={{
                 position: 'absolute',
@@ -103,13 +106,14 @@ export default function Home() {
               CÔNG NGHỆ EASY DRAIN
             </h1>
             <h1 className="text-xl font-semibold">
-              Giúp thợ xả nước nhanh, sạch, và tiện lợi sau khi xong dịch vụ pedicure
+              Giúp thợ xả nước nhanh, sạch, và tiện lợi sau khi xong dịch vụ
+              pedicure
             </h1>
           </div>
           <div className="relative h-[390px]">
             <iframe
               src="https://player.vimeo.com/video/743306861"
-              autoplay="1"
+              autoPlay
               allowFullScreen
               style={{
                 position: 'absolute',
@@ -130,7 +134,7 @@ export default function Home() {
           <div className="relative h-[390px]">
             <iframe
               src="https://player.vimeo.com/video/662098381"
-              autoplay="1"
+              autoPlay
               allowFullScreen
               style={{
                 position: 'absolute',
@@ -144,12 +148,14 @@ export default function Home() {
         </section>
         <div className="mt-5 text-center py-20 px-2">
           <h1 className="font-semibold text-xl capitalize mb-10">
-            Hãy gọi  hoặc nhắn tin để được nhân viên tư vấn chi
-            tiết thêm về những{' '}
-            <span className="text-red-700">Công Nghệ Ghế Contégo</span>
+            Hãy gọi hoặc nhắn tin để được nhân viên tư vấn chi tiết thêm về
+            những <span className="text-red-700">Công Nghệ Ghế Contégo</span>
           </h1>
         </div>
       </main>
+      <div>
+        <Pixel name="FACEBOOK_PIXEL_1" />
+      </div>
     </Layout>
   );
 }
