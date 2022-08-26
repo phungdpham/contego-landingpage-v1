@@ -11,8 +11,8 @@ function Layout({ children }) {
       <MessengerChat
         pageId="1445135705721986"
         language="en_US"
-        themeColor={'#000000'}
-        bottomSpacing={300}
+        themeColor={'#4267B2'}
+        bottomSpacing={50}
         loggedInGreeting="loggedInGreeting"
         loggedOutGreeting="loggedOutGreeting"
         greetingDialogDisplay={'icon'}
