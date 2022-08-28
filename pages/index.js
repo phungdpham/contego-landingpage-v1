@@ -22,13 +22,13 @@ export default function Home() {
               nail"
             </h1>
           </div>
-          <div className="relative h-[220px]">
+          <div className="w-full h-[235px]">
             <iframe
               src="https://player.vimeo.com/video/494597824"
-              autoPlay
+              // autoPlay
               allowFullScreen
               style={{
-                position: 'absolute',
+                position: 'relative',
                 top: 0,
                 left: 0,
                 width: '100%',
@@ -56,13 +56,17 @@ export default function Home() {
               tuyệt đối
             </h1>
           </div>
+          {/* <h2 className="text-lg text-slate-500 text-center py-5">
+            Xem Video về Disposible Jet-liner
+          </h2> */}
+
           <div className="relative h-[414px]">
             <iframe
               src="https://player.vimeo.com/video/662098416"
-              autoPlay
+              // autoPlay
               allowFullScreen
               style={{
-                position: 'absolute',
+                position: 'relative',
                 top: 0,
                 left: 0,
                 width: '100%',
@@ -70,6 +74,9 @@ export default function Home() {
               }}
             ></iframe>
           </div>
+          <h2 className="text-lg text-slate-500 text-center py-5">
+            Xem Video về Disposible Jet-liner
+          </h2>
         </section>
         <section className="">
           <div className="w-full text-center px-5 py-5">
@@ -80,13 +87,14 @@ export default function Home() {
               Thoải mái châm thêm nước mới mà không lo tràn ra ngoài
             </h1>
           </div>
+
           <div className="relative h-[414px]">
             <iframe
               src="https://player.vimeo.com/video/662098405"
-              autoPlay
+              // autoPlay
               allowFullScreen
               style={{
-                position: 'absolute',
+                position: 'relative',
                 top: 0,
                 left: 0,
                 width: '100%',
@@ -94,6 +102,9 @@ export default function Home() {
               }}
             ></iframe>
           </div>
+          <h2 className="text-lg text-slate-500 text-center py-5">
+            Xem Video về Hệ Thống Overflow
+          </h2>
         </section>
         <section className="">
           <div className="w-full text-center px-5 py-5">
@@ -105,13 +116,14 @@ export default function Home() {
               pedicure
             </h1>
           </div>
+          
           <div className="relative h-[414px]">
             <iframe
               src="https://player.vimeo.com/video/662098392"
-              autoPlay
+              // autoPlay
               allowFullScreen
               style={{
-                position: 'absolute',
+                position: 'relative',
                 top: 0,
                 left: 0,
                 width: '100%',
@@ -119,6 +131,9 @@ export default function Home() {
               }}
             ></iframe>
           </div>
+          <h2 className="text-lg text-slate-500 text-center py-5">
+            Xem Video về Easy Drain
+          </h2>
         </section>
         <section className="">
           <div className="w-full text-center px-1 py-7">
@@ -129,10 +144,10 @@ export default function Home() {
           <div className="relative h-[414px]">
             <iframe
               src="https://player.vimeo.com/video/662098381"
-              autoPlay
+              // autoPlay
               allowFullScreen
               style={{
-                position: 'absolute',
+                position: 'relative',
                 top: 0,
                 left: 0,
                 width: '100%',
