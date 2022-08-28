@@ -39,7 +39,7 @@ export default function Home() {
         </section>
         <div className="mt-5 text-center py-7 border-b-2">
           <h1 className="font-semibold text-xl capitalize ">
-            Những Tiện ích dành cho thợ nail{' '}
+            Những Tiện ích dành cho tiệm nail{' '}
           </h1>
           <h1 className="font-semibold text-xl capitalize ">
             khi dùng ghế Contego
@@ -54,11 +54,6 @@ export default function Home() {
               <span className="">Công nghệ Bubble Massage nước</span> thay thế
               Jet nam châm, dùng một lần và vứt bỏ hoàn toàn. Đảm bảo vệ sinh
               tuyệt đối
-              {/* Công nghệ bubble masasage nước lên lòng bàn chân khách, được
-              sử dụng một lần, tiết kiệm thời gian & công sức chùi rửa
-
-              <br /> */}
-              {/* công nghệ air bubble massage nước lên lòng bàn chân, dùng một lần, không phải chùi rửa */}
             </h1>
           </div>
           <div className="relative h-[414px]">
@@ -87,7 +82,7 @@ export default function Home() {
           </div>
           <div className="relative h-[414px]">
             <iframe
-              src="https://player.vimeo.com/video/743307158"
+              src="https://player.vimeo.com/video/662098405"
               autoPlay
               allowFullScreen
               style={{
@@ -112,7 +107,7 @@ export default function Home() {
           </div>
           <div className="relative h-[414px]">
             <iframe
-              src="https://player.vimeo.com/video/743306861"
+              src="https://player.vimeo.com/video/662098392"
               autoPlay
               allowFullScreen
               style={{

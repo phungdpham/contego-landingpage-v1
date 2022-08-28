@@ -1,12 +1,13 @@
 {
-  "name": "nextjs-tailwindcss-starter",
+  "name": "Contego Spa Designs Landing Page",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && node ./scripts/deploy.js"
   },
   "dependencies": {
     "next": "12.2.5",
@@ -17,8 +18,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
+    "dotenv": "^16.0.1",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
+    "ftp-deploy": "^2.4.3",
     "postcss": "^8.4.16",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^14.1.0",
