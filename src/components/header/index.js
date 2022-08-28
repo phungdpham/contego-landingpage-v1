@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Logo from '../../images/logo.png'
 import Image from 'next/image'
 

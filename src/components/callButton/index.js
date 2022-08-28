@@ -27,7 +27,7 @@ function CallButton() {
             <path d="M15 7a2 2 0 0 1 2 2" /> <path d="M15 3a6 6 0 0 1 6 6" />
           </svg>
           </div>
-          Gọi Ngay | (714) 895-8865
+          Gọi Ngay | 714-895-8865
         </a>
       </button>
     </div>
