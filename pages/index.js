@@ -38,11 +38,8 @@ export default function Home() {
           </div>
         </section>
         <div className="mt-5 text-center py-7 border-b-2">
-          <h1 className="font-semibold text-xl capitalize ">
-            Những Tiện ích dành cho tiệm nail{' '}
-          </h1>
-          <h1 className="font-semibold text-xl capitalize ">
-            khi dùng ghế Contego
+          <h1 className="font-semibold text-xl ">
+            Những Tiện ích dành cho tiệm nail  khi dùng <span className='text-red-700'>ghế Contego</span>
           </h1>
         </div>
         <section className="">
